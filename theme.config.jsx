@@ -6,7 +6,7 @@ export default {
     project: {
         link: 'https://github.com/siwalikm/demo-nextra-2.0'
     },
-    docsRepositoryBase: 'https://github.com/siwalikm/demo-nextra-2.0',
+    docsRepositoryBase: 'https://github.com/siwalikm/demo-nextra-2.0/blob/main/',
     chat: {
         link: 'https://discord.gg'
     }
