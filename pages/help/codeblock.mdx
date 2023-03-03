@@ -1,0 +1,29 @@
+# temple code block
+
+import { Tab, Tabs } from 'nextra-theme-docs'
+ 
+```shell
+GET /notes
+```
+
+<Tabs items={['js', 'python', 'go']}>
+  <Tab>
+    ```js
+        const fun (val) => val + 1 
+    ```
+  </Tab>
+  <Tab>
+    ```py
+        def fun(val):
+            return val + 1
+    ```
+  </Tab>
+  <Tab>
+    ```go
+        func fun(val int) int {
+            return val + 1
+        }
+    ```
+  </Tab>
+</Tabs>
+
